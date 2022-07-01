@@ -10,25 +10,25 @@
             round
             :src="userInfo.photo"
           />
-          <span>{{userInfo.name}}</span>
+          <span>{{ userInfo.name }}</span>
         </div>
         <div class="rigth">编辑资料</div>
       </div>
       <ul class="list">
         <li>
-          <p>{{userInfo.art_count}}</p>
+          <p>{{ userInfo.art_count }}</p>
           <p>头条</p>
         </li>
         <li>
-          <p>{{userInfo.fans_count}}</p>
+          <p>{{ userInfo.fans_count }}</p>
           <p>关注</p>
         </li>
         <li>
-          <p>{{userInfo.follow_count}}</p>
+          <p>{{ userInfo.follow_count }}</p>
           <p>粉丝</p>
         </li>
         <li>
-          <p>{{userInfo.like_count}}</p>
+          <p>{{ userInfo.like_count }}</p>
           <p>获赏</p>
         </li>
       </ul>

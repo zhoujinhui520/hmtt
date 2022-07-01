@@ -1,6 +1,9 @@
 <template>
   <div>
-    <router-view class='main' />
+    <keep-alive :include="['home']">
+      <!--keep-alive 给页面做缓存 切换页面不会变  include 是只给Home页面做缓存  -->
+      <router-view class='main' />
+    </keep-alive>
 
     <van-tabbar route>
       <van-tabbar-item replace to="/home" icon="home-o">
