@@ -4,7 +4,7 @@
     <van-nav-bar fixed>
       <template #title>
         <van-button type="info" icon="search" class="search-btn"
-          >搜索</van-button
+         to="/search" >搜索</van-button
         >
       </template>
     </van-nav-bar>
