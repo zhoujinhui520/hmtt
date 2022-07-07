@@ -3,8 +3,8 @@
     <!-- 搜索框 -->
     <van-nav-bar fixed>
       <template #title>
-        <van-button type="info" icon="search" class="search-btn"
-         to="/search" >搜索</van-button
+        <van-button type="info" icon="search" class="search-btn" to="/search"
+          >搜索</van-button
         >
       </template>
     </van-nav-bar>
