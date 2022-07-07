@@ -12,7 +12,7 @@
           />
           <span>{{ userInfo.name }}</span>
         </div>
-        <div class="rigth">编辑资料</div>
+        <div class="rigth" @click="$router.push('/user')">编辑资料</div>
       </div>
       <ul class="list">
         <li>
